@@ -1,0 +1,20 @@
+.hero {
+  height: 1200px;
+  position: relative;
+  background-image: url("/img/background/HG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero a {
+  color: white;
+}
+
+.hero__content {
+  position: absolute;
+  z-index: 9;
+  top: 60px;
+  left: 80px;
+  right: 80px;
+  pointer-events: none;
+}
