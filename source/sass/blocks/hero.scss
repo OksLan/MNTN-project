@@ -2,8 +2,9 @@
   height: 1513px;
   position: relative;
   // background-image: url("/img/background/HG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  background-color:#f0efe9;
 
   // &::before {
   //   content: "";
@@ -19,9 +20,10 @@
 
 .hero__content {
   position: absolute;
-  z-index: 9;
+  z-index: 10;
   top: 60px;
+  bottom: 60px;
   left: 80px;
   right: 80px;
-  pointer-events: none;
+  background-color:bisque;
 }
