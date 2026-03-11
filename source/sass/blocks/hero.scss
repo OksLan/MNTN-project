@@ -26,4 +26,35 @@
   left: 80px;
   right: 80px;
   background-color:cadetblue;
+  pointer-events: all;
+}
+
+.hero__socials {
+  position: absolute;
+  left: 0;
+  top: 359px;
+  transform: translate(0%, -50%);
+
+  background-color: aqua;
+  height: 140px;
+  width: 30px;
+}
+
+.hero__scrollbar {
+  position: absolute;
+  right: 0;
+  top: 326px;
+  left: auto;
+
+  width: 10px;
+  height: 240px;
+  background-color: bisque;
+}
+
+.hero__text {
+  position: absolute;
+  top:287px;
+  left: 500px;
+  right: 470px;
+  bottom: 603px;
 }
