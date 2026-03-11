@@ -5,6 +5,7 @@
 
 /* BLOCKS */
 @import "blocks/hero";
+@import "blocks/nav";
 
 html {
   scroll-behavior: smooth;
@@ -18,6 +19,10 @@ body {
   // background-color:#f0efe9;
 }
 
+.page-body {
+  width: 1920px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +31,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 img {
@@ -47,4 +56,3 @@ img {
   width: 108px;
   height: 28px;
 }
-
