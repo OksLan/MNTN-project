@@ -56,3 +56,38 @@ img {
   width: 108px;
   height: 28px;
 }
+
+.badge {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 6px;
+  color: #fbd784;
+  position: relative;
+  left: 104px;
+  padding: 2px 0;
+  
+  &::before {
+    position: absolute;
+    content: "";
+    width: 72px;
+    height: 2px;
+    left: -104px;
+    top: 10px;
+    background-color: #fbd784;
+  }
+}
+
+.scroll__down {
+  color: white;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 16px;
+  }
+}
