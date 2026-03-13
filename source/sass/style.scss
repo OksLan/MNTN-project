@@ -6,6 +6,7 @@
 /* BLOCKS */
 @import "blocks/hero";
 @import "blocks/nav";
+@import "blocks/main-content";
 
 html {
   scroll-behavior: smooth;
@@ -16,7 +17,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  // background-color:#f0efe9;
+  background-color: bisque;
 }
 
 .page-body {
@@ -76,18 +77,5 @@ img {
     left: -104px;
     top: 10px;
     background-color: #fbd784;
-  }
-}
-
-.scroll__down {
-  color: white;
-  font-size: 18px;
-  line-height: 100%;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-
-  span {
-    margin-right: 16px;
   }
 }

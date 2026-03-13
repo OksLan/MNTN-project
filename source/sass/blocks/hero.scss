@@ -79,3 +79,16 @@
   text-transform: capitalize;
   margin-bottom: 32px;
 }
+
+.hero__scroll-down {
+  color: white;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 16px;
+  }
+}

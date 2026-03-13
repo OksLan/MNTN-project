@@ -1,0 +1,13 @@
+.main-content {
+  position: relative;
+  padding: 240px 229px 200px;
+  background-color:burlywood;
+  display: grid;
+  gap: 200px;
+}
+
+.main-content__item {
+  display: flex;
+  margin: 0 auto;
+  background-color: azure;
+}
