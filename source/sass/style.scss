@@ -7,6 +7,7 @@
 @import "blocks/hero";
 @import "blocks/nav";
 @import "blocks/main-content";
+@import "blocks/footer";
 
 html {
   scroll-behavior: smooth;
@@ -78,4 +79,11 @@ img {
     top: 10px;
     background-color: #fbd784;
   }
+}
+
+h3 {
+  font-family: Chronicle-Display;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 100%;
 }

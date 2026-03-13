@@ -1,7 +1,7 @@
 .main-content {
   position: relative;
   padding: 240px 229px 200px;
-  background-color:burlywood;
+  background-color:darkgray;
   display: grid;
   gap: 200px;
 }
@@ -9,5 +9,35 @@
 .main-content__item {
   display: flex;
   margin: 0 auto;
-  background-color: azure;
+  background-color: black;
+
+  .badge,
+  h3 {
+    margin-bottom: 27px;
+  }
+
+  h3 {
+    color: white;
+  }
+}
+
+.main-content__item-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 27px;
+  color: white;
+}
+
+.main-content__read-more {
+  color: #fbd784;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 16px;
+  }
 }
