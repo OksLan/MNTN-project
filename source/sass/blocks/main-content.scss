@@ -27,6 +27,10 @@
   }
 }
 
+.gear .main-content__item-info {
+  padding: 141px 0 140px 264px;
+}
+
 .main-content__item-title {
   max-width: 555px;
 }
@@ -50,4 +54,8 @@
   span {
     margin-right: 16px;
   }
+}
+
+.gear {
+  flex-direction: row-reverse;
 }
