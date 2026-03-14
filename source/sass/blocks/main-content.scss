@@ -8,8 +8,14 @@
 
 .main-content__item {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
   background-color: black;
+}
+
+.main-content__item-info {
+  padding: 141px 114px 140px 150px;
 
   .badge,
   h3 {
@@ -19,6 +25,10 @@
   h3 {
     color: white;
   }
+}
+
+.main-content__item-title {
+  max-width: 555px;
 }
 
 .main-content__item-text {
