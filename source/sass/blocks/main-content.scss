@@ -4,6 +4,7 @@
   background-color:darkgray;
   display: grid;
   gap: 200px;
+  counter-reset: section;
 }
 
 .main-content__item {
@@ -12,6 +13,20 @@
   justify-content: space-between;
   margin: 0 auto;
   background-color: black;
+  position: relative;
+  counter-increment: section;
+  z-index: 1;
+
+  &::before {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    color: rgba(255, 255, 255, 0.1);
+    content: "0" counter(section);
+  }
 }
 
 .main-content__item-info {
@@ -58,4 +73,9 @@
 
 .gear {
   flex-direction: row-reverse;
+
+  &::before {
+    left: auto;
+    right: 507px;
+  }
 }
