@@ -19,7 +19,7 @@
 
     <div class="hero">
 
-      <div class="hero__content">
+      <section class="hero__content" id="start">
         <nav class="nav">
           <a class="nav__logo" href="#">
             <svg class="logo"
@@ -86,27 +86,16 @@
 
         </div>
 
-        <!-- <div class="hero__aside">
-          <ul class="hero__aside-scale">
-            <li class="hero__aside-scale-item active">Start</li>
-            <li class="hero__aside-scale-item">01</li>
-            <li class="hero__aside-scale-item">02</li>
-            <li class="hero__aside-scale-item">03</li>
+        <div class="aside">
+          <ul class="aside-scale">
+            <li class="aside-scale-item active" data-target="start">Start</li>
+            <li class="aside-scale-item" data-target="section-1">01</li>
+            <li class="aside-scale-item" data-target="section-2">02</li>
+            <li class="aside-scale-item" data-target="section-3">03</li>
           </ul>
 
-          <div class="hero__aside-scrollbar"></div>
-        </div> -->
-
-        <div class="hero__aside">
-        <ul class="hero__aside-scale">
-          <li class="hero__aside-scale-item active" data-target="start">Start</li>
-          <li class="hero__aside-scale-item" data-target="section-1">01</li>
-          <li class="hero__aside-scale-item" data-target="section-2">02</li>
-          <li class="hero__aside-scale-item" data-target="section-3">03</li>
-        </ul>
-
-          <div class="hero__aside-scrollbar">
-            <div class="hero__aside-progress"></div>
+          <div class="aside-scrollbar">
+            <div class="aside-progress"></div>
           </div>
         </div>
 
@@ -127,11 +116,11 @@
           </div>
 
         </div>
-      </div>
+      </section>
     </div>
 
     <div class="main-content">
-      <div class="main-content__item level" id="section-1">
+      <section class="main-content__item level" id="section-1">
         <div class="main-content__item-info">
           <p class="badge">Get started</p>
           <h3 class="main-content__item-title">
@@ -162,11 +151,11 @@
         <picture class="main-content__item-picture">
             <source type="image/webp" width="566" height="720"
             srcset="img/main/01@1x.webp 1x, img/main/01@2x.webp 2x">
-            <img class="main__pic" width="566" height="720" src="img/main/01@1x.png" alt="01">
+            <img class="main-content__item-image" width="566" height="720" src="img/main/01@1x.png" alt="01">
         </picture>
-      </div>
+      </section>
 
-      <div class="main-content__item gear" id="section-2">
+      <section class="main-content__item gear" id="section-2">
         <div class="main-content__item-info">
           <p class="badge">Hiking essentials</p>
           <h3 class="main-content__item-title">
@@ -194,12 +183,12 @@
         <picture class="main-content__item-picture">
             <source type="image/webp" width="566" height="720"
             srcset="img/main/02@1x.webp 1x, img/main/02@2x.webp 2x">
-            <img class="main__pic" width="566" height="720" src="img/main/02@1x.png" alt="02">
+            <img class="main-content__item-image" width="566" height="720" src="img/main/02@1x.png" alt="02">
         </picture>
 
-      </div>
+      </section>
 
-      <div class="main-content__item map-timing" id="section-3">
+      <section class="main-content__item map-timing" id="section-3">
         <div class="main-content__item-info">
           <p class="badge">Where you go&nbsp;is&nbsp;the key</p>
           <h3 class="main-content__item-title">
@@ -227,9 +216,9 @@
         <picture class="main-content__item-picture">
             <source type="image/webp" width="566" height="720"
             srcset="img/main/03@1x.webp 1x, img/main/03@2x.webp 2x">
-            <img class="main__pic" width="566" height="720" src="img/main/03@1x.png" alt="03">
+            <img class="main-content__item-image" width="566" height="720" src="img/main/03@1x.png" alt="03">
         </picture>
-      </div>
+      </section>
     </div>
 
     <footer class="footer">

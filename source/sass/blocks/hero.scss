@@ -48,67 +48,6 @@
   }
 }
 
-.hero__aside {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  right: 0;
-  top: 390px;
-
-  gap: 32px;
-}
-
-.hero__aside-scale {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.hero__aside-scale-item {
-  font-weight: 700;
-  font-size: 18px;
-  color: white;
-}
-
-// .hero__aside-scrollbar {
-//   top: 390px;
-//   right: 0;
-//   width: 3px;
-//   height: 240px;
-//   background-color: rgba(255, 255, 255, 0.2);
-
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     left: 74px;
-//     top: 0;
-//     width: 3px;
-//     height: 60px;
-//     background-color: white;
-//   }
-// }
-
-.hero__aside-scrollbar {
-  position: relative;
-  width: 3px;
-  height: 240px;
-  background: rgba(255,255,255,0.3);
-}
-
-.hero__aside-progress {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: white;
-  transition: top 0.3s;
-}
-
 .hero__text {
   position: absolute;
   top:287px;

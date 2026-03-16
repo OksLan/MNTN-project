@@ -6,6 +6,7 @@
 /* BLOCKS */
 @import "blocks/hero";
 @import "blocks/nav";
+@import "blocks/aside";
 @import "blocks/main-content";
 @import "blocks/footer";
 
@@ -69,7 +70,7 @@ img {
   position: relative;
   left: 104px;
   padding: 2px 0;
-  
+
   &::before {
     position: absolute;
     content: "";
