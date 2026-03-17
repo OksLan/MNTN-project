@@ -4,6 +4,7 @@
 
   h4 {
     color: #fbd784;
+    margin-bottom: 24px;
   }
 }
 
@@ -28,9 +29,14 @@
   opacity: 0.5;
 }
 
+.links__item {
+  margin-bottom: 16px;
+}
+
 .links__link {
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
   color: white;
+  margin-bottom: 16px;
 }
