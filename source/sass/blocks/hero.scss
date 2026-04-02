@@ -74,36 +74,17 @@
 
 .hero {
   position: relative;
-  min-height: 1200px; // подгоняется под макет
+  min-height: 1200px;
   overflow: hidden;
 }
 
 .hero__bg {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-
-  background-image:
-    linear-gradient(
-      to bottom,
-      rgba(11, 29, 38, 0) 0%,
-      #0b1d26 85%
-    ),
-    url("/images/VG.png"),
-    url("/images/MG.png"),
-    url("/images/HG.png");
-
-  background-repeat: no-repeat;
-
-  background-position:
-    top,
-    center 768px,
-    center 464px,
-    center -400px;
-
-  background-size:
-    100% 100%,
-    100% auto,
-    100% auto,
-    100% auto;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: linear-gradient(to bottom, rgba(11, 29, 38, 0) 0%, #0b1d26 85%), url(/img/background/VG.png), url(/img/background/MG.png), url(/img/background/HG.png);
+    background-repeat: no-repeat;
+    background-position: center, left 0 bottom 0, left 0 top 207px, top -464px left;
+    background-size: 100% 100%, 100% auto, 100% auto, 100% auto;
+    height: 1200px;
 }

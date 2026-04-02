@@ -1,25 +1,25 @@
-.page-body {
-  background-image:
-    linear-gradient(
-      to bottom,
-      rgba(11, 29, 38, 0) 0%,
-      #0b1d26 85%),
+// .page-body {
+//   background-image:
+//     linear-gradient(
+//       to bottom,
+//       rgba(11, 29, 38, 0) 0%,
+//       #0b1d26 85%),
 
-    url("/images/VG.png"),
-    url("/images/MG.png"),
-    url("/images/HG.png");
+//     url("/images/VG.png"),
+//     url("/images/MG.png"),
+//     url("/images/HG.png");
 
-  background-repeat: no-repeat;
+//   background-repeat: no-repeat;
 
-  background-position:
-    // top,              // градиент
-    top 768px,        // VG
-    top 464px,        // MG
-    top -400px;       // HG
+//   background-position:
+//     // top,              // градиент
+//     top 768px,        // VG
+//     top 464px,        // MG
+//     top -400px;       // HG
 
-  background-size:
-    // 100% 100%,           // градиент
-    100% auto,           // VG
-    100% auto,           // MG
-    100% auto;           // HG
-}
+//   background-size:
+//     // 100% 100%,           // градиент
+//     100% auto,           // VG
+//     100% auto,           // MG
+//     100% auto;           // HG
+// }
