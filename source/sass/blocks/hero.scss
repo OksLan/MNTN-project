@@ -1,7 +1,31 @@
 .hero {
-  height: 1513px;
   position: relative;
   // background-color:#f0efe9;
+  overflow: hidden;
+  min-height: 1900px;
+}
+
+.hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: 
+      linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0b1d26 108.93%), 
+      url(/img/background/hill.png), 
+      url(/img/background/mountains.png), 
+      url(/img/background/clouds.png);
+    background-repeat: no-repeat;
+    background-position: 
+      center, 
+      left 0 top 829px, 
+      left 0 top 526px, 
+      left 0 top 0;
+    background-size: 
+      100% 100%, 
+      100% auto, 
+      100% auto, 
+      100% auto;
+    height: 1900px;
 }
 
 .hero a {
@@ -70,21 +94,4 @@
   span {
     margin-right: 16px;
   }
-}
-
-.hero {
-  position: relative;
-  min-height: 1200px;
-  overflow: hidden;
-}
-
-.hero__bg {
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background-image: linear-gradient(to bottom, rgba(11, 29, 38, 0) 0%, #0b1d26 85%), url(/img/background/VG.png), url(/img/background/MG.png), url(/img/background/HG.png);
-    background-repeat: no-repeat;
-    background-position: center, left 0 bottom 0, left 0 top 207px, top -464px left;
-    background-size: 100% 100%, 100% auto, 100% auto, 100% auto;
-    height: 1200px;
 }
