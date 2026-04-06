@@ -5,26 +5,28 @@
   min-height: 1200px;
 }
 
+
 .hero__bg {
     position: absolute;
     inset: 0;
-    background-image: 
-      linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0b1d26 108.93%), 
-      url(/img/background/hill.png), 
-      url(/img/background/mountains.png), 
+    background:
+      linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0b1d26 108.93%),
+      linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%),
+      url(/img/background/hill.png),
+      url(/img/background/mountains.png),
       url(/img/background/clouds.png);
     background-repeat: no-repeat;
-    background-position: 
-      center, 
-      left 0 top 829px, 
-      left 0 top 526px, 
+    background-position:
+      center,
+      left 0 top 829px,
+      left 0 top 526px,
       left 0 top 0;
-    background-size: 
-      100% 100%, 
-      100% auto, 
-      100% auto, 
+    background-size:
+      100% 100%,
+      100% auto,
+      100% auto,
       100% auto;
-    // height: 1900px;
+    height: 1200px;
 }
 
 .hero a {
