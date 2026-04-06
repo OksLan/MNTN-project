@@ -4,7 +4,6 @@
 @import "common/variables";
 
 /* BLOCKS */
-@import "blocks/page-body";
 @import "blocks/hero";
 @import "blocks/nav";
 @import "blocks/aside";
@@ -20,11 +19,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  // background-color: bisque;
-}
-
-.page-body {
-  // width: 1920px;
 }
 
 * {
@@ -56,7 +50,7 @@ img {
   overflow: hidden;
 }
 
-.badge {
+.tagline {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
