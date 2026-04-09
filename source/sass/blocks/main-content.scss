@@ -1,5 +1,19 @@
 .main-content {
   background: #0B1D26;
+  position: relative;
+
+    &::before {
+    content: "";
+    position: absolute;
+    height: 700px;
+    top: -1200px;
+    background: linear-gradient(
+      180deg,
+      rgba(11, 29, 38, 0) 0%,
+      rgba(11, 29, 38, 1) 61.38%
+    );
+    z-index: 1;
+  }
 }
 
 .main-content__wrapper {
@@ -10,7 +24,7 @@
   max-width: 1462px;
   margin: 0 auto;
   padding-bottom: 120px;
-  // padding-top: 240px;
+  padding-top: 240px;
 }
 
 .main-content__item {
