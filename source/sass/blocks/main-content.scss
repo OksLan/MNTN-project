@@ -1,20 +1,22 @@
 .main-content {
-  background: #0B1D26;
   position: relative;
 
     &::before {
     content: "";
     position: absolute;
     height: 700px;
-    top: -1200px;
     background: linear-gradient(
       180deg,
       rgba(11, 29, 38, 0) 0%,
       rgba(11, 29, 38, 1) 61.38%
     );
-    z-index: 1;
+    z-index: 0;
+    width: 100%;
+    top: -83px;
   }
-}
+   margin-top: -676px;
+   padding-top: 240px;
+  }
 
 .main-content__wrapper {
   display: flex;
@@ -112,4 +114,13 @@
     left: auto;
     right: 507px;
   }
+}
+
+.main-content__bg {
+  position: absolute;
+  background: #0B1D26;
+  height: calc(100% - 626px);
+  width: 100%;
+  top: 617px;
+  z-index: 0;
 }
