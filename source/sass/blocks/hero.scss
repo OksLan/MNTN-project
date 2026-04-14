@@ -88,8 +88,28 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  position: relative;
+  display: inline-flex;
 
   span {
     margin-right: 16px;
+  }
+
+    &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: -4px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
   }
 }
