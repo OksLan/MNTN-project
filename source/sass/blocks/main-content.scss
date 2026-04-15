@@ -1,5 +1,7 @@
 .main-content {
   position: relative;
+  margin-top: -676px;
+  padding-top: 240px;
 
     &::before {
     content: "";
@@ -12,11 +14,9 @@
     );
     z-index: 0;
     width: 100%;
-    top: -80px;
+    top: 20px;
   }
-   margin-top: -676px;
-   padding-top: 240px;
-  }
+}
 
 .main-content__wrapper {
   display: flex;
